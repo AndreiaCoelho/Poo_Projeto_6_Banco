@@ -12,6 +12,7 @@
           <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="tabcssconf/tabela.css"> 
         <title>Manutenção do quiz</title>
     </head>
     <body>
@@ -38,17 +39,22 @@
 					<table class="table table-hover" id="dev-table">
 						<thead>
 							<tr>
-								<th>#</th>
+								<th>Número</th>
+								<th>Questão</th>
+								<th>Funções</th>
+							<!--</tr>
+                                                        
+						</thead>	<th>#</th>
 								<th>First Name</th>
 								<th>Questão</th>
 								<th>Funções</th>
 							</tr>
-						</thead>
+						</thead> -->
+                                                
 						<tbody>
 							<tr>
 								<td>1</td>
 								<td>Kilgore</td>
-								<td>Trout</td>
                                                                 <td>
                                                 <form>
                                                 <input type="submit" value="Alterar" name="alterar">
@@ -59,7 +65,6 @@
 							<tr>
 								<td>2</td>
 								<td>Bob</td>
-								<td>Loblaw</td>
                                                                 <td> <form>
                                                 <input type="submit" value="Alterar" name="alterar">
                                                 <input type="submit" value="Excluir" name="excluir">
@@ -68,7 +73,6 @@
 							<tr>
 								<td>3</td>
 								<td>Holden</td>
-								<td>Caulfield</td>
 								 <td><form>
                                                 <input type="submit" value="Alterar" name="alterar">
                                                 <input type="submit" value="Excluir" name="excluir">
