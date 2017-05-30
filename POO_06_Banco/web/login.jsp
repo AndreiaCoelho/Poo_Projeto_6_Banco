@@ -13,19 +13,18 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="tabcssconf/tabela.css"> 
-        <title>Cadastro</title>
+        <title>Login</title>
     </head>
     <body>
              <%@include file="WEB-INF/jspfs/menu.jspf" %>
       <%@include file="WEB-INF/jspfs/modal.jspf" %>
     <center>
-        <h3>Cadastro</h3>
-        <img src="imagens/cadastrar.png" height="110">
+        <h3>Login</h3>
+        <img src="imagens/usuario.png" height="145">
         <form>
             <h3>
-            <p>Nome:<input type="text" name="nomeusu"> </p>
-            <p> E-mail:<input type="text" name="emailusu"> </p>
-            <p>Senha:<input type="password" name="senhausu"> </p>
+            <p>Nome:<input type="text" name="nomeusu2"> </p>
+            <p>Senha:<input type="password" name="senhausu2"> </p>
             <p>Tipo:</p>
             <p><input type="radio" value="Administrador">Administrador </p>                                                      
             <p><input type="radio" value="Visitante">Visitante</p>  
