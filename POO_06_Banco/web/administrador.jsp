@@ -49,27 +49,15 @@
             </div>
             <div class="w3-half w3-blue-grey w3-container" style="height:1000px">
                 <div class="w3-padding-64 w3-center">
-                    <h1>Teste seus conhecimentos</h1>
-                    
-                    <div class="w3-left-align w3-padding-large">
-                        <h2>Classificação Geral</h2>
                         <div class="w3-container w3-responsive">
-                            <table class="w3-table">
-                                <tr>
-                                    <th>Pontuação</th>
-                                    <th>Jogador</th>
-                                </tr>                                
-                                <tr class="w3-white">                                    
-                                    <td style="border-style: double"></td>
-                                    <td style="border-style: double"></td>
-                                </tr>
-
-                            </table>
+                            <a href="pagina_manutencao_usuario.jsp" class="btn btn-primary">Manutenção Usuario</a>
+                            <br/><br/>
+                            <a href="pagina_manutenção_quiz.jsp" class="btn btn-primary">Manutenção Quiz</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        
 
         <!-- Footer -->
         <footer class="w3-container w3-black w3-padding-16 text-center">
