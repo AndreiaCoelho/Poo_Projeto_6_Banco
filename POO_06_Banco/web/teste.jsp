@@ -30,7 +30,7 @@
             request.getParameter("8"),
             request.getParameter("9")
         });
-        String pontos = 100. * Quiz.getLastGrade() + "";
+        String pontos = 200. * Quiz.getLastGrade() + "";
         Locale locale = new Locale("pt", "BR");
         GregorianCalendar calendar = new GregorianCalendar();
         SimpleDateFormat formatador = new SimpleDateFormat("dd' de 'MMMMM' de 'yyyy' - 'HH':'mm'h'", locale);

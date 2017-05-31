@@ -73,14 +73,14 @@
                                     <th>Hora</th>
                                 </tr>                                
                                 <tr class="w3-white">
-                                    <% for (int i = 0; i < j.size(); i++) { 
-                                        Jogador j1 = j.get(i);
+                                    <% for (int i = 0; i < j.size(); i++) {
+                                            Jogador j1 = j.get(i);
                                     %>
                                     <td style="border-style: double"><%= j1.getJogador()%></td>
                                     <td style="border-style: double"><%= j1.getPontos()%></td>
-                                    <% }%>
-                                </tr>
 
+                                </tr>
+                                <% }%>
                             </table>
                         </div>
                     </div>
